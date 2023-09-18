@@ -14,7 +14,7 @@ const body = document.querySelector('body')
 no.addEventListener('mouseover', () => {
     console.log('hello')
     no.style.top = Math.random() * 80 + "vh"
-    no.style.left = Math.random() * 80 + "vh"
+    no.style.left = Math.random() * 80 + "vw"
 })
 yes.addEventListener('click', () => {
     let video = document.createElement('video')

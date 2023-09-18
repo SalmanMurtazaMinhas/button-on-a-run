@@ -2,11 +2,12 @@
     background-color: antiquewhite;
 } */
 
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
     body {
       background-color: lightgreen;
     }
-  }
+  } */
+
 
 body {
     font-family: 'Press Start 2P', cursive;
@@ -306,3 +307,47 @@ strong {
   right: 55%;
   top: 50%;
 }
+
+
+/* @media (max-width: 1000px){
+  body {
+    color: rgb(166, 53, 53);
+    width: 100% ;
+  }
+  .button02 {
+    position: relative;
+    right: 35%;
+    top: 50%;
+    transition: 0.1s;
+  }
+  .button01 {
+    position: relative;
+    right: 35%;
+    top: 50%;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    overflow: hidden;
+    height: 3rem;
+    background-size: 300% 300%;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#212121, #212121),  linear-gradient(137.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%, #0044ff 87%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+  .button-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 30%;
+  }
+} */
+
